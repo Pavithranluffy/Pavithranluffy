@@ -1,0 +1,64 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050f"/>
+      <stop offset="45%" stop-color="#0d0b21"/>
+      <stop offset="100%" stop-color="#150a2e"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2550" stroke-width="0.6" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="960" cy="90" r="220" fill="url(#glow)"/>
+  <circle cx="180" cy="240" r="180" fill="url(#glow)"/>
+
+  <!-- circuit accent lines -->
+  <g stroke="#3b82f6" stroke-width="1.4" opacity="0.55" fill="none">
+    <path d="M0 60 H140 L165 85 H320"/>
+    <path d="M1200 230 H1040 L1015 205 H880"/>
+    <path d="M0 255 H90 L112 233 H240"/>
+  </g>
+  <g fill="#60a5fa" opacity="0.8">
+    <circle cx="320" cy="85" r="3.5"/>
+    <circle cx="880" cy="205" r="3.5"/>
+    <circle cx="240" cy="233" r="3.5"/>
+  </g>
+
+  <!-- angle brackets, code-theme motif -->
+  <text x="60" y="118" font-family="Fira Code, Consolas, monospace" font-size="26" fill="#a78bfa" opacity="0.5">&lt;/&gt;</text>
+  <text x="1090" y="270" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#38bdf8" opacity="0.45">{ }</text>
+
+  <!-- name -->
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="url(#textGrad)" letter-spacing="1">
+    PAVITHRAN RAJENDRAN
+  </text>
+
+  <!-- divider line -->
+  <rect x="400" y="178" width="400" height="2" fill="url(#lineGrad)"/>
+
+  <!-- tagline -->
+  <text x="600" y="212" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="19" fill="#cbd5e1" letter-spacing="0.5">
+    Full-Stack Engineer  ·  Java / Spring Boot  ·  React  ·  AI &amp; RAG Systems
+  </text>
+
+  <text x="600" y="245" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7c8bb0" letter-spacing="2">
+    BUILDING SCALABLE SYSTEMS · SHIPPING AI-NATIVE PRODUCTS
+  </text>
+</svg>
